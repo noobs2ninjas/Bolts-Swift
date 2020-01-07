@@ -485,7 +485,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					065894E61C9A933B000FDDA6 = {
@@ -499,20 +499,21 @@
 					};
 					87FEF3651A9085FA00C60678 = {
 						CreatedOnToolsVersion = 6.3;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1130;
 					};
 					87FEF3701A9085FA00C60678 = {
 						CreatedOnToolsVersion = 6.3;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
 			buildConfigurationList = 87FEF3601A9085FA00C60678 /* Build configuration list for PBXProject "BoltsSwift" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 87FEF35C1A9085FA00C60678;
 			productRefGroup = 87FEF3671A9085FA00C60678 /* Products */;
@@ -771,6 +772,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB53B1D3597BF00552C9F /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 			};
 			name = Debug;
 		};
@@ -778,6 +781,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB53C1D3597BF00552C9F /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
@@ -785,6 +791,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB5271D3597BF00552C9F /* BoltsSwift-iOS.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -792,6 +799,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB5271D3597BF00552C9F /* BoltsSwift-iOS.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -799,6 +807,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB52B1D3597BF00552C9F /* BoltsSwiftTests-iOS.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -806,6 +815,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB52B1D3597BF00552C9F /* BoltsSwiftTests-iOS.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
